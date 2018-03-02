@@ -1,8 +1,15 @@
 # Lab 1 #
 In this lab we will create a new Unity project and preform the needed steps to support Mixed Reality development. We will then add some flare to our 3d world by adding a simple Skybox and Terrain object. This lab will prepare you for the next labs and will be built upon in subsequent labs.
 
+# Lab 1a. Enabling Developer Mode
+Let's start by enabling Developer Mode on your device. If you are working with a Windows Mixed Reality headset connected to your PC, you must enable Developer Mode on the PC.
 
-# Lab 1a. Configuring a new Unity project for Windows Mixed Reality
+1. Go to Settings
+2. Select Update and Security
+3. Select For developers
+4. Enable Developer Mode, read the disclaimer for the setting you chose, then click Yes to accept the change.
+
+# Lab 1b. Configuring a new Unity project for Windows Mixed Reality
 
 To get started building mixed reality apps with Unity, first install the tools. If you'll be targeting Windows Mixed Reality 
 
