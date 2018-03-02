@@ -53,7 +53,6 @@ namespace HoloToolkit.Unity.ControllerExamples
         [SerializeField]
         private Renderer brushRenderer;
 
-        private ColorPickerWheel colorPicker;
         private Color currentStrokeColor = Color.white;
         private bool draw = false;
 
@@ -66,6 +65,7 @@ namespace HoloToolkit.Unity.ControllerExamples
             // Subscribe to press and release events for drawing
             InteractionManager.InteractionSourcePressed += InteractionSourcePressed;
             InteractionManager.InteractionSourceReleased += InteractionSourceReleased;
+            brushRenderer.material.color = currentStrokeColor;
         }
 
         private void OnDisable()
@@ -76,12 +76,7 @@ namespace HoloToolkit.Unity.ControllerExamples
 
         private void Update()
         {
-            if (!FindColorPickerWheel())
-            {
-                return;
-            }
-
-            brushRenderer.material.color = colorPicker.SelectedColor;
+            
         }
 
         private void InteractionSourcePressed(InteractionSourcePressedEventArgs obj)
@@ -102,15 +97,6 @@ namespace HoloToolkit.Unity.ControllerExamples
             }
         }
 
-        private bool FindColorPickerWheel()
-        {
-            if (colorPicker == null)
-            {
-                colorPicker = FindObjectOfType<ColorPickerWheel>();
-            }
-
-            return colorPicker != null;
-        }
 
         private IEnumerator DrawOverTime()
         {
@@ -139,8 +125,8 @@ namespace HoloToolkit.Unity.ControllerExamples
             {
                 // Move the last point to the draw point position
                 line.SetPosition(line.positionCount - 1, tip.position);
-                line.material.color = colorPicker.SelectedColor;
-                brushRenderer.material.color = colorPicker.SelectedColor;
+                line.material.color = currentStrokeColor;
+                brushRenderer.material.color = currentStrokeColor;
                 lastPointAddedTime = Time.unscaledTime;
                 line.widthMultiplier = Mathf.Lerp(initialWidth, initialWidth * 2, width);
 

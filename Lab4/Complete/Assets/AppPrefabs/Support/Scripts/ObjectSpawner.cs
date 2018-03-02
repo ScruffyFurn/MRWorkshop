@@ -57,8 +57,7 @@ namespace HoloToolkit.Unity.ControllerExamples
         private MeshFilter displayObject;
         [SerializeField]
         private Material objectMaterial;
-        [SerializeField]
-        private ColorPickerWheel colorSource;
+        
         [SerializeField]
         private Mesh[] availableMeshes;
 
@@ -73,6 +72,7 @@ namespace HoloToolkit.Unity.ControllerExamples
         private void Awake()
         {
             instantiatedMaterial = new Material(objectMaterial);
+            instantiatedMaterial.color = new Color(UnityEngine.Random.Range(0.0f, 1.0f), UnityEngine.Random.Range(0.0f, 1.0f), UnityEngine.Random.Range(0.0f, 1.0f), 1.0f);
         }
 
         private void Update()
@@ -88,7 +88,7 @@ namespace HoloToolkit.Unity.ControllerExamples
             }
 
             displayObject.sharedMesh = availableMeshes[meshIndex];
-            instantiatedMaterial.color = colorSource.SelectedColor;
+            
         }
 
         protected override void OnDestroy()
@@ -107,7 +107,7 @@ namespace HoloToolkit.Unity.ControllerExamples
             // Reset the scale transform to 1
             scaleParent.localScale = Vector3.one;
             // Set its material color so its material gets instantiated
-            newObject.GetComponent<Renderer>().material.color = colorSource.SelectedColor;
+            newObject.GetComponent<Renderer>().material.color = new Color(UnityEngine.Random.Range(0.0f, 1.0f), UnityEngine.Random.Range(0.0f, 1.0f), UnityEngine.Random.Range(0.0f, 1.0f), 1.0f);
         }
 
         protected override void OnAttachToController()

@@ -57,6 +57,7 @@ namespace HoloToolkit.Unity.ControllerExamples
         private MeshFilter displayObject;
         [SerializeField]
         private Material objectMaterial;
+        
         [SerializeField]
         private Mesh[] availableMeshes;
 
@@ -71,6 +72,7 @@ namespace HoloToolkit.Unity.ControllerExamples
         private void Awake()
         {
             instantiatedMaterial = new Material(objectMaterial);
+            instantiatedMaterial.color = new Color(UnityEngine.Random.Range(0.0f, 1.0f), UnityEngine.Random.Range(0.0f, 1.0f), UnityEngine.Random.Range(0.0f, 1.0f), 1.0f);
         }
 
         private void Update()
@@ -86,7 +88,7 @@ namespace HoloToolkit.Unity.ControllerExamples
             }
 
             displayObject.sharedMesh = availableMeshes[meshIndex];
-            instantiatedMaterial.color = new Color(UnityEngine.Random.Range(0.0f, 1.0f), UnityEngine.Random.Range(0.0f, 1.0f), UnityEngine.Random.Range(0.0f, 1.0f), 1.0f);
+            
         }
 
         protected override void OnDestroy()
