@@ -1,5 +1,4 @@
-#Lab 3 
-
+# Lab 3 #
 In lab 3 we are going to add the ability to move around our 3D world. As mentioned in the presentation, there are many different ways to implement movement. In our case we are going to focus on teleportation. Also we are going to expand on our Motion controller and create a paint brush controller and make it paint! 
 
 
@@ -20,8 +19,7 @@ We will also use InputManager and DefaultCusor prefabs from the Mixed Reality To
 
 You will now be able to use the thumbstick to rotate left/right or teleport.
 
-#Lab 3b. Using custom 3D models for Motion Controllers#
-
+# Lab 3b. Using custom 3D models for Motion Controllers #
 In this lab we will replace the right-hand motion controller model with our own custom 3D model.
 
 1. Click MotionControllers in the Hierarchy panel.

@@ -2144,7 +2144,6 @@ extern const Il2CppType AudioLowPassFilter_t919637367_0_0_0;
 extern const Il2CppType Button_t2162584723_0_0_0;
 extern const Il2CppType CompoundButton_t147810562_0_0_0;
 extern const Il2CppType CompoundButtonText_t2169052765_0_0_0;
-extern const Il2CppType ColorPickerWheel_t2235220782_0_0_0;
 extern const Il2CppType Brush_t1548626474_0_0_0;
 extern const Il2CppType Line_t549989228_0_0_0;
 extern const Il2CppType NavigationHotSpot_t405511513_0_0_0;
@@ -7189,8 +7188,6 @@ static const RuntimeType* GenInst_CompoundButton_t147810562_0_0_0_Types[] = { (&
 extern const Il2CppGenericInst GenInst_CompoundButton_t147810562_0_0_0 = { 1, GenInst_CompoundButton_t147810562_0_0_0_Types };
 static const RuntimeType* GenInst_CompoundButtonText_t2169052765_0_0_0_Types[] = { (&CompoundButtonText_t2169052765_0_0_0) };
 extern const Il2CppGenericInst GenInst_CompoundButtonText_t2169052765_0_0_0 = { 1, GenInst_CompoundButtonText_t2169052765_0_0_0_Types };
-static const RuntimeType* GenInst_ColorPickerWheel_t2235220782_0_0_0_Types[] = { (&ColorPickerWheel_t2235220782_0_0_0) };
-extern const Il2CppGenericInst GenInst_ColorPickerWheel_t2235220782_0_0_0 = { 1, GenInst_ColorPickerWheel_t2235220782_0_0_0_Types };
 static const RuntimeType* GenInst_Brush_t1548626474_0_0_0_Types[] = { (&Brush_t1548626474_0_0_0) };
 extern const Il2CppGenericInst GenInst_Brush_t1548626474_0_0_0 = { 1, GenInst_Brush_t1548626474_0_0_0_Types };
 static const RuntimeType* GenInst_Line_t549989228_0_0_0_Types[] = { (&Line_t549989228_0_0_0) };
@@ -7403,7 +7400,7 @@ static const RuntimeType* GenInst_ConfiguredTaskAwaiter_t107639853_0_0_0_U3CGetE
 extern const Il2CppGenericInst GenInst_ConfiguredTaskAwaiter_t107639853_0_0_0_U3CGetEntityAsyncU3Ed__0_t2214286444_0_0_0 = { 2, GenInst_ConfiguredTaskAwaiter_t107639853_0_0_0_U3CGetEntityAsyncU3Ed__0_t2214286444_0_0_0_Types };
 static const RuntimeType* GenInst_TypedEventHandler_2_t986724726_0_0_0_Types[] = { (&TypedEventHandler_2_t986724726_0_0_0) };
 extern const Il2CppGenericInst GenInst_TypedEventHandler_2_t986724726_0_0_0 = { 1, GenInst_TypedEventHandler_2_t986724726_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[2598] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[2597] = 
 {
 	&GenInst_RuntimeObject_0_0_0,
 	&GenInst_Type_t_0_0_0,
@@ -9896,7 +9893,6 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[2598] =
 	&GenInst_Button_t2162584723_0_0_0,
 	&GenInst_CompoundButton_t147810562_0_0_0,
 	&GenInst_CompoundButtonText_t2169052765_0_0_0,
-	&GenInst_ColorPickerWheel_t2235220782_0_0_0,
 	&GenInst_Brush_t1548626474_0_0_0,
 	&GenInst_Line_t549989228_0_0_0,
 	&GenInst_NavigationHotSpot_t405511513_0_0_0,

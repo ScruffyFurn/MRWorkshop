@@ -11116,14 +11116,14 @@ extern "C" Il2CppIUnknown* CreateComCallableWrapperFor_U3CDrawOverTimeU3Ed__31_t
 extern const RuntimeType U3CDrawOverTimeU3Ed__31_t814362136_0_0_0;
 extern "C" Il2CppIUnknown* CreateComCallableWrapperFor_U3CUpdateDisplayModeU3Ed__32_t268247815(RuntimeObject* obj);
 extern const RuntimeType U3CUpdateDisplayModeU3Ed__32_t268247815_0_0_0;
-extern "C" Il2CppIUnknown* CreateComCallableWrapperFor_U3CDrawOverTimeU3Ed__24_t1141827424(RuntimeObject* obj);
-extern const RuntimeType U3CDrawOverTimeU3Ed__24_t1141827424_0_0_0;
+extern "C" Il2CppIUnknown* CreateComCallableWrapperFor_U3CDrawOverTimeU3Ed__22_t2288838496(RuntimeObject* obj);
+extern const RuntimeType U3CDrawOverTimeU3Ed__22_t2288838496_0_0_0;
 extern "C" Il2CppIUnknown* CreateComCallableWrapperFor_U3CDrawOverTimeU3Ed__4_t2030358129(RuntimeObject* obj);
 extern const RuntimeType U3CDrawOverTimeU3Ed__4_t2030358129_0_0_0;
 extern "C" Il2CppIUnknown* CreateComCallableWrapperFor_U3CEraseStrokesOverTimeU3Ed__5_t963038218(RuntimeObject* obj);
 extern const RuntimeType U3CEraseStrokesOverTimeU3Ed__5_t963038218_0_0_0;
-extern "C" Il2CppIUnknown* CreateComCallableWrapperFor_U3CSwitchOverTimeU3Ed__23_t3239096198(RuntimeObject* obj);
-extern const RuntimeType U3CSwitchOverTimeU3Ed__23_t3239096198_0_0_0;
+extern "C" Il2CppIUnknown* CreateComCallableWrapperFor_U3CSwitchOverTimeU3Ed__22_t1282781062(RuntimeObject* obj);
+extern const RuntimeType U3CSwitchOverTimeU3Ed__22_t1282781062_0_0_0;
 extern "C" void DelegatePInvokeWrapper_GetLogLine_t996454327();
 extern const RuntimeType GetLogLine_t996454327_0_0_0;
 extern "C" Il2CppIUnknown* CreateComCallableWrapperFor_U3CUpdateLineUnityU3Ed__8_t3720518906(RuntimeObject* obj);
@@ -23799,10 +23799,10 @@ extern Il2CppInteropData g_Il2CppInteropData[7149] =
 	{ NULL, NULL, NULL, NULL, CreateComCallableWrapperFor_U3CEnumerateAncestorsU3Ed__6_t622793014, NULL, &U3CEnumerateAncestorsU3Ed__6_t622793014_0_0_0 } /* HoloToolkit.Unity.ComponentExtensions/<EnumerateAncestors>d__6 */,
 	{ NULL, NULL, NULL, NULL, CreateComCallableWrapperFor_U3CDrawOverTimeU3Ed__31_t814362136, NULL, &U3CDrawOverTimeU3Ed__31_t814362136_0_0_0 } /* HoloToolkit.Unity.ControllerExamples.Brush/<DrawOverTime>d__31 */,
 	{ NULL, NULL, NULL, NULL, CreateComCallableWrapperFor_U3CUpdateDisplayModeU3Ed__32_t268247815, NULL, &U3CUpdateDisplayModeU3Ed__32_t268247815_0_0_0 } /* HoloToolkit.Unity.ControllerExamples.Brush/<UpdateDisplayMode>d__32 */,
-	{ NULL, NULL, NULL, NULL, CreateComCallableWrapperFor_U3CDrawOverTimeU3Ed__24_t1141827424, NULL, &U3CDrawOverTimeU3Ed__24_t1141827424_0_0_0 } /* HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__24 */,
+	{ NULL, NULL, NULL, NULL, CreateComCallableWrapperFor_U3CDrawOverTimeU3Ed__22_t2288838496, NULL, &U3CDrawOverTimeU3Ed__22_t2288838496_0_0_0 } /* HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__22 */,
 	{ NULL, NULL, NULL, NULL, CreateComCallableWrapperFor_U3CDrawOverTimeU3Ed__4_t2030358129, NULL, &U3CDrawOverTimeU3Ed__4_t2030358129_0_0_0 } /* HoloToolkit.Unity.ControllerExamples.Eraser/<DrawOverTime>d__4 */,
 	{ NULL, NULL, NULL, NULL, CreateComCallableWrapperFor_U3CEraseStrokesOverTimeU3Ed__5_t963038218, NULL, &U3CEraseStrokesOverTimeU3Ed__5_t963038218_0_0_0 } /* HoloToolkit.Unity.ControllerExamples.Eraser/<EraseStrokesOverTime>d__5 */,
-	{ NULL, NULL, NULL, NULL, CreateComCallableWrapperFor_U3CSwitchOverTimeU3Ed__23_t3239096198, NULL, &U3CSwitchOverTimeU3Ed__23_t3239096198_0_0_0 } /* HoloToolkit.Unity.ControllerExamples.ObjectSpawner/<SwitchOverTime>d__23 */,
+	{ NULL, NULL, NULL, NULL, CreateComCallableWrapperFor_U3CSwitchOverTimeU3Ed__22_t1282781062, NULL, &U3CSwitchOverTimeU3Ed__22_t1282781062_0_0_0 } /* HoloToolkit.Unity.ControllerExamples.ObjectSpawner/<SwitchOverTime>d__22 */,
 	{ DelegatePInvokeWrapper_GetLogLine_t996454327, NULL, NULL, NULL, NULL, NULL, &GetLogLine_t996454327_0_0_0 } /* HoloToolkit.Unity.DebugPanel/GetLogLine */,
 	{ NULL, NULL, NULL, NULL, CreateComCallableWrapperFor_U3CUpdateLineUnityU3Ed__8_t3720518906, NULL, &U3CUpdateLineUnityU3Ed__8_t3720518906_0_0_0 } /* HoloToolkit.Unity.Design.LineUnity/<UpdateLineUnity>d__8 */,
 	{ NULL, AnimatorParameter_t4149701082_marshal_pinvoke, AnimatorParameter_t4149701082_marshal_pinvoke_back, AnimatorParameter_t4149701082_marshal_pinvoke_cleanup, NULL, NULL, &AnimatorParameter_t4149701082_0_0_0 } /* HoloToolkit.Unity.InputModule.AnimatorParameter */,

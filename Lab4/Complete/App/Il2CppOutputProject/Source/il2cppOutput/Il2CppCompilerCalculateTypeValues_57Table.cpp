@@ -122,8 +122,6 @@ struct Action_t1264377477;
 struct Rigidbody_t3916780224;
 // HoloToolkit.Unity.InputModule.MotionControllerInfo
 struct MotionControllerInfo_t938152223;
-// HoloToolkit.Unity.ControllerExamples.ColorPickerWheel
-struct ColorPickerWheel_t2235220782;
 // HoloToolkit.Unity.Interpolator
 struct Interpolator_t3604653897;
 // System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,System.Int32>
@@ -234,6 +232,8 @@ struct Action_1_t1110619818;
 struct Texture2D_t3840446185;
 // HoloToolkit.Unity.Design.LineObjectCollection
 struct LineObjectCollection_t2817952665;
+// HoloToolkit.Unity.ControllerExamples.ColorPickerWheel
+struct ColorPickerWheel_t2235220782;
 // UnityEngine.MeshRenderer
 struct MeshRenderer_t587009260;
 // HoloToolkit.Unity.Design.Line
@@ -2817,33 +2817,33 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // INTERACTIONSOURCEHANDEDNESS_T3096408347_H
-#ifndef U3CDRAWOVERTIMEU3ED__24_T1141827424_H
-#define U3CDRAWOVERTIMEU3ED__24_T1141827424_H
+#ifndef U3CDRAWOVERTIMEU3ED__22_T2288838496_H
+#define U3CDRAWOVERTIMEU3ED__22_T2288838496_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__24
-struct  U3CDrawOverTimeU3Ed__24_t1141827424  : public RuntimeObject
+// HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__22
+struct  U3CDrawOverTimeU3Ed__22_t2288838496  : public RuntimeObject
 {
 public:
-	// System.Int32 HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__24::<>1__state
+	// System.Int32 HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__22::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__24::<>2__current
+	// System.Object HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__22::<>2__current
 	RuntimeObject * ___U3CU3E2__current_1;
-	// HoloToolkit.Unity.ControllerExamples.BrushController HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__24::<>4__this
+	// HoloToolkit.Unity.ControllerExamples.BrushController HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__22::<>4__this
 	BrushController_t3766631826 * ___U3CU3E4__this_2;
-	// UnityEngine.LineRenderer HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__24::<line>5__1
+	// UnityEngine.LineRenderer HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__22::<line>5__1
 	LineRenderer_t3154350270 * ___U3ClineU3E5__1_3;
-	// System.Single HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__24::<initialWidth>5__2
+	// System.Single HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__22::<initialWidth>5__2
 	float ___U3CinitialWidthU3E5__2_4;
-	// UnityEngine.Vector3 HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__24::<lastPointPosition>5__3
+	// UnityEngine.Vector3 HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__22::<lastPointPosition>5__3
 	Vector3_t3722313464  ___U3ClastPointPositionU3E5__3_5;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__24_t1141827424, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__22_t2288838496, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -2851,7 +2851,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__24_t1141827424, ___U3CU3E2__current_1)); }
+	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__22_t2288838496, ___U3CU3E2__current_1)); }
 	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
 	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
 	inline void set_U3CU3E2__current_1(RuntimeObject * value)
@@ -2860,7 +2860,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3CU3E2__current_1), value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__24_t1141827424, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__22_t2288838496, ___U3CU3E4__this_2)); }
 	inline BrushController_t3766631826 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline BrushController_t3766631826 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(BrushController_t3766631826 * value)
@@ -2869,7 +2869,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3CU3E4__this_2), value);
 	}
 
-	inline static int32_t get_offset_of_U3ClineU3E5__1_3() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__24_t1141827424, ___U3ClineU3E5__1_3)); }
+	inline static int32_t get_offset_of_U3ClineU3E5__1_3() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__22_t2288838496, ___U3ClineU3E5__1_3)); }
 	inline LineRenderer_t3154350270 * get_U3ClineU3E5__1_3() const { return ___U3ClineU3E5__1_3; }
 	inline LineRenderer_t3154350270 ** get_address_of_U3ClineU3E5__1_3() { return &___U3ClineU3E5__1_3; }
 	inline void set_U3ClineU3E5__1_3(LineRenderer_t3154350270 * value)
@@ -2878,7 +2878,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3ClineU3E5__1_3), value);
 	}
 
-	inline static int32_t get_offset_of_U3CinitialWidthU3E5__2_4() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__24_t1141827424, ___U3CinitialWidthU3E5__2_4)); }
+	inline static int32_t get_offset_of_U3CinitialWidthU3E5__2_4() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__22_t2288838496, ___U3CinitialWidthU3E5__2_4)); }
 	inline float get_U3CinitialWidthU3E5__2_4() const { return ___U3CinitialWidthU3E5__2_4; }
 	inline float* get_address_of_U3CinitialWidthU3E5__2_4() { return &___U3CinitialWidthU3E5__2_4; }
 	inline void set_U3CinitialWidthU3E5__2_4(float value)
@@ -2886,7 +2886,7 @@ public:
 		___U3CinitialWidthU3E5__2_4 = value;
 	}
 
-	inline static int32_t get_offset_of_U3ClastPointPositionU3E5__3_5() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__24_t1141827424, ___U3ClastPointPositionU3E5__3_5)); }
+	inline static int32_t get_offset_of_U3ClastPointPositionU3E5__3_5() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__22_t2288838496, ___U3ClastPointPositionU3E5__3_5)); }
 	inline Vector3_t3722313464  get_U3ClastPointPositionU3E5__3_5() const { return ___U3ClastPointPositionU3E5__3_5; }
 	inline Vector3_t3722313464 * get_address_of_U3ClastPointPositionU3E5__3_5() { return &___U3ClastPointPositionU3E5__3_5; }
 	inline void set_U3ClastPointPositionU3E5__3_5(Vector3_t3722313464  value)
@@ -2898,7 +2898,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CDRAWOVERTIMEU3ED__24_T1141827424_H
+#endif // U3CDRAWOVERTIMEU3ED__22_T2288838496_H
 #ifndef CAMERACLEARFLAGS_T2362496923_H
 #define CAMERACLEARFLAGS_T2362496923_H
 #ifdef __clang__
@@ -8356,16 +8356,14 @@ public:
 	Transform_t3600365921 * ___brushObjectTransform_7;
 	// UnityEngine.Renderer HoloToolkit.Unity.ControllerExamples.BrushController::brushRenderer
 	Renderer_t2627027031 * ___brushRenderer_8;
-	// HoloToolkit.Unity.ControllerExamples.ColorPickerWheel HoloToolkit.Unity.ControllerExamples.BrushController::colorPicker
-	ColorPickerWheel_t2235220782 * ___colorPicker_9;
 	// UnityEngine.Color HoloToolkit.Unity.ControllerExamples.BrushController::currentStrokeColor
-	Color_t2555686324  ___currentStrokeColor_10;
+	Color_t2555686324  ___currentStrokeColor_9;
 	// System.Boolean HoloToolkit.Unity.ControllerExamples.BrushController::draw
-	bool ___draw_11;
+	bool ___draw_10;
 	// System.Single HoloToolkit.Unity.ControllerExamples.BrushController::width
-	float ___width_12;
+	float ___width_11;
 	// System.Single HoloToolkit.Unity.ControllerExamples.BrushController::lastPointAddedTime
-	float ___lastPointAddedTime_13;
+	float ___lastPointAddedTime_12;
 
 public:
 	inline static int32_t get_offset_of_minColorDelta_2() { return static_cast<int32_t>(offsetof(BrushController_t3766631826, ___minColorDelta_2)); }
@@ -8428,45 +8426,36 @@ public:
 		Il2CppCodeGenWriteBarrier((&___brushRenderer_8), value);
 	}
 
-	inline static int32_t get_offset_of_colorPicker_9() { return static_cast<int32_t>(offsetof(BrushController_t3766631826, ___colorPicker_9)); }
-	inline ColorPickerWheel_t2235220782 * get_colorPicker_9() const { return ___colorPicker_9; }
-	inline ColorPickerWheel_t2235220782 ** get_address_of_colorPicker_9() { return &___colorPicker_9; }
-	inline void set_colorPicker_9(ColorPickerWheel_t2235220782 * value)
+	inline static int32_t get_offset_of_currentStrokeColor_9() { return static_cast<int32_t>(offsetof(BrushController_t3766631826, ___currentStrokeColor_9)); }
+	inline Color_t2555686324  get_currentStrokeColor_9() const { return ___currentStrokeColor_9; }
+	inline Color_t2555686324 * get_address_of_currentStrokeColor_9() { return &___currentStrokeColor_9; }
+	inline void set_currentStrokeColor_9(Color_t2555686324  value)
 	{
-		___colorPicker_9 = value;
-		Il2CppCodeGenWriteBarrier((&___colorPicker_9), value);
+		___currentStrokeColor_9 = value;
 	}
 
-	inline static int32_t get_offset_of_currentStrokeColor_10() { return static_cast<int32_t>(offsetof(BrushController_t3766631826, ___currentStrokeColor_10)); }
-	inline Color_t2555686324  get_currentStrokeColor_10() const { return ___currentStrokeColor_10; }
-	inline Color_t2555686324 * get_address_of_currentStrokeColor_10() { return &___currentStrokeColor_10; }
-	inline void set_currentStrokeColor_10(Color_t2555686324  value)
+	inline static int32_t get_offset_of_draw_10() { return static_cast<int32_t>(offsetof(BrushController_t3766631826, ___draw_10)); }
+	inline bool get_draw_10() const { return ___draw_10; }
+	inline bool* get_address_of_draw_10() { return &___draw_10; }
+	inline void set_draw_10(bool value)
 	{
-		___currentStrokeColor_10 = value;
+		___draw_10 = value;
 	}
 
-	inline static int32_t get_offset_of_draw_11() { return static_cast<int32_t>(offsetof(BrushController_t3766631826, ___draw_11)); }
-	inline bool get_draw_11() const { return ___draw_11; }
-	inline bool* get_address_of_draw_11() { return &___draw_11; }
-	inline void set_draw_11(bool value)
+	inline static int32_t get_offset_of_width_11() { return static_cast<int32_t>(offsetof(BrushController_t3766631826, ___width_11)); }
+	inline float get_width_11() const { return ___width_11; }
+	inline float* get_address_of_width_11() { return &___width_11; }
+	inline void set_width_11(float value)
 	{
-		___draw_11 = value;
+		___width_11 = value;
 	}
 
-	inline static int32_t get_offset_of_width_12() { return static_cast<int32_t>(offsetof(BrushController_t3766631826, ___width_12)); }
-	inline float get_width_12() const { return ___width_12; }
-	inline float* get_address_of_width_12() { return &___width_12; }
-	inline void set_width_12(float value)
+	inline static int32_t get_offset_of_lastPointAddedTime_12() { return static_cast<int32_t>(offsetof(BrushController_t3766631826, ___lastPointAddedTime_12)); }
+	inline float get_lastPointAddedTime_12() const { return ___lastPointAddedTime_12; }
+	inline float* get_address_of_lastPointAddedTime_12() { return &___lastPointAddedTime_12; }
+	inline void set_lastPointAddedTime_12(float value)
 	{
-		___width_12 = value;
-	}
-
-	inline static int32_t get_offset_of_lastPointAddedTime_13() { return static_cast<int32_t>(offsetof(BrushController_t3766631826, ___lastPointAddedTime_13)); }
-	inline float get_lastPointAddedTime_13() const { return ___lastPointAddedTime_13; }
-	inline float* get_address_of_lastPointAddedTime_13() { return &___lastPointAddedTime_13; }
-	inline void set_lastPointAddedTime_13(float value)
-	{
-		___lastPointAddedTime_13 = value;
+		___lastPointAddedTime_12 = value;
 	}
 };
 
@@ -12169,7 +12158,7 @@ extern const int32_t g_FieldOffsetTable5793[11] =
 	U3CUpdateDisplayModeU3Ed__32_t268247815::get_offset_of_U3CtargetRotationU3E5__8_10(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5794 = { sizeof (BrushController_t3766631826), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable5794[12] = 
+extern const int32_t g_FieldOffsetTable5794[11] = 
 {
 	BrushController_t3766631826::get_offset_of_minColorDelta_2(),
 	BrushController_t3766631826::get_offset_of_minPositionDelta_3(),
@@ -12178,11 +12167,10 @@ extern const int32_t g_FieldOffsetTable5794[12] =
 	BrushController_t3766631826::get_offset_of_strokePrefab_6(),
 	BrushController_t3766631826::get_offset_of_brushObjectTransform_7(),
 	BrushController_t3766631826::get_offset_of_brushRenderer_8(),
-	BrushController_t3766631826::get_offset_of_colorPicker_9(),
-	BrushController_t3766631826::get_offset_of_currentStrokeColor_10(),
-	BrushController_t3766631826::get_offset_of_draw_11(),
-	BrushController_t3766631826::get_offset_of_width_12(),
-	BrushController_t3766631826::get_offset_of_lastPointAddedTime_13(),
+	BrushController_t3766631826::get_offset_of_currentStrokeColor_9(),
+	BrushController_t3766631826::get_offset_of_draw_10(),
+	BrushController_t3766631826::get_offset_of_width_11(),
+	BrushController_t3766631826::get_offset_of_lastPointAddedTime_12(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5795 = { sizeof (DisplayModeEnum_t2111840609)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
 extern const int32_t g_FieldOffsetTable5795[4] = 
@@ -12192,15 +12180,15 @@ extern const int32_t g_FieldOffsetTable5795[4] =
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5796 = { sizeof (U3CDrawOverTimeU3Ed__24_t1141827424), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5796 = { sizeof (U3CDrawOverTimeU3Ed__22_t2288838496), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable5796[6] = 
 {
-	U3CDrawOverTimeU3Ed__24_t1141827424::get_offset_of_U3CU3E1__state_0(),
-	U3CDrawOverTimeU3Ed__24_t1141827424::get_offset_of_U3CU3E2__current_1(),
-	U3CDrawOverTimeU3Ed__24_t1141827424::get_offset_of_U3CU3E4__this_2(),
-	U3CDrawOverTimeU3Ed__24_t1141827424::get_offset_of_U3ClineU3E5__1_3(),
-	U3CDrawOverTimeU3Ed__24_t1141827424::get_offset_of_U3CinitialWidthU3E5__2_4(),
-	U3CDrawOverTimeU3Ed__24_t1141827424::get_offset_of_U3ClastPointPositionU3E5__3_5(),
+	U3CDrawOverTimeU3Ed__22_t2288838496::get_offset_of_U3CU3E1__state_0(),
+	U3CDrawOverTimeU3Ed__22_t2288838496::get_offset_of_U3CU3E2__current_1(),
+	U3CDrawOverTimeU3Ed__22_t2288838496::get_offset_of_U3CU3E4__this_2(),
+	U3CDrawOverTimeU3Ed__22_t2288838496::get_offset_of_U3ClineU3E5__1_3(),
+	U3CDrawOverTimeU3Ed__22_t2288838496::get_offset_of_U3CinitialWidthU3E5__2_4(),
+	U3CDrawOverTimeU3Ed__22_t2288838496::get_offset_of_U3ClastPointPositionU3E5__3_5(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5797 = { sizeof (BrushSelector_t2086558127), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable5797[26] = 

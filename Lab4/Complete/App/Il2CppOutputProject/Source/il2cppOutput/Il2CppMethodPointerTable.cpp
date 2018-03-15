@@ -33012,15 +33012,14 @@ extern "C" void BrushController_OnDisable_m621618378 ();
 extern "C" void BrushController_Update_m3395182014 ();
 extern "C" void BrushController_InteractionSourcePressed_m16171582 ();
 extern "C" void BrushController_InteractionSourceReleased_m637482188 ();
-extern "C" void BrushController_FindColorPickerWheel_m3431305498 ();
 extern "C" void BrushController_DrawOverTime_m3397846564 ();
 extern "C" void BrushController__ctor_m2981069084 ();
-extern "C" void U3CDrawOverTimeU3Ed__24__ctor_m920645531 ();
-extern "C" void U3CDrawOverTimeU3Ed__24_System_IDisposable_Dispose_m2991099257 ();
-extern "C" void U3CDrawOverTimeU3Ed__24_MoveNext_m366974381 ();
-extern "C" void U3CDrawOverTimeU3Ed__24_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1488515430 ();
-extern "C" void U3CDrawOverTimeU3Ed__24_System_Collections_IEnumerator_Reset_m1131465756 ();
-extern "C" void U3CDrawOverTimeU3Ed__24_System_Collections_IEnumerator_get_Current_m500745691 ();
+extern "C" void U3CDrawOverTimeU3Ed__22__ctor_m231349237 ();
+extern "C" void U3CDrawOverTimeU3Ed__22_System_IDisposable_Dispose_m206964450 ();
+extern "C" void U3CDrawOverTimeU3Ed__22_MoveNext_m3588684263 ();
+extern "C" void U3CDrawOverTimeU3Ed__22_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m591615197 ();
+extern "C" void U3CDrawOverTimeU3Ed__22_System_Collections_IEnumerator_Reset_m3612374622 ();
+extern "C" void U3CDrawOverTimeU3Ed__22_System_Collections_IEnumerator_get_Current_m2026051286 ();
 extern "C" void BrushSelector_OnEnable_m2829038275 ();
 extern "C" void BrushSelector_Update_m1408350682 ();
 extern "C" void BrushSelector_OnDestroy_m269040198 ();
@@ -33066,12 +33065,12 @@ extern "C" void ObjectSpawner_SwitchOverTime_m2645081859 ();
 extern "C" void ObjectSpawner_InteractionSourcePressed_m387276712 ();
 extern "C" void ObjectSpawner_InteractionSourceReleased_m1835341091 ();
 extern "C" void ObjectSpawner__ctor_m3564298841 ();
-extern "C" void U3CSwitchOverTimeU3Ed__23__ctor_m861004313 ();
-extern "C" void U3CSwitchOverTimeU3Ed__23_System_IDisposable_Dispose_m2819711872 ();
-extern "C" void U3CSwitchOverTimeU3Ed__23_MoveNext_m3315921400 ();
-extern "C" void U3CSwitchOverTimeU3Ed__23_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3923244764 ();
-extern "C" void U3CSwitchOverTimeU3Ed__23_System_Collections_IEnumerator_Reset_m2881886853 ();
-extern "C" void U3CSwitchOverTimeU3Ed__23_System_Collections_IEnumerator_get_Current_m511843580 ();
+extern "C" void U3CSwitchOverTimeU3Ed__22__ctor_m1848924688 ();
+extern "C" void U3CSwitchOverTimeU3Ed__22_System_IDisposable_Dispose_m3977042330 ();
+extern "C" void U3CSwitchOverTimeU3Ed__22_MoveNext_m1367394119 ();
+extern "C" void U3CSwitchOverTimeU3Ed__22_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m953490072 ();
+extern "C" void U3CSwitchOverTimeU3Ed__22_System_Collections_IEnumerator_Reset_m1261130533 ();
+extern "C" void U3CSwitchOverTimeU3Ed__22_System_Collections_IEnumerator_get_Current_m1607047503 ();
 extern "C" void LinePointer_OnEnable_m3195562588 ();
 extern "C" void LinePointer_OnDisable_m2572148290 ();
 extern "C" void LinePointer_Update_m3454829233 ();
@@ -35667,7 +35666,7 @@ extern "C" void HandleRef_ToIntPtr_m1331246340 ();
 extern "C" void SystemException__ctor_m1143626908 ();
 extern "C" void SystemException__ctor_m3072678092 ();
 extern "C" void SystemException__ctor_m881259267 ();
-extern const Il2CppMethodPointer g_MethodPointers[35650] = 
+extern const Il2CppMethodPointer g_MethodPointers[35649] = 
 {
 	U3CPrivateImplementationDetailsU3E_ComputeStringHash_m4063532059,
 	mincore_EnumDynamicTimeZoneInformation_m2602101295,
@@ -68664,15 +68663,14 @@ extern const Il2CppMethodPointer g_MethodPointers[35650] =
 	BrushController_Update_m3395182014,
 	BrushController_InteractionSourcePressed_m16171582,
 	BrushController_InteractionSourceReleased_m637482188,
-	BrushController_FindColorPickerWheel_m3431305498,
 	BrushController_DrawOverTime_m3397846564,
 	BrushController__ctor_m2981069084,
-	U3CDrawOverTimeU3Ed__24__ctor_m920645531,
-	U3CDrawOverTimeU3Ed__24_System_IDisposable_Dispose_m2991099257,
-	U3CDrawOverTimeU3Ed__24_MoveNext_m366974381,
-	U3CDrawOverTimeU3Ed__24_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1488515430,
-	U3CDrawOverTimeU3Ed__24_System_Collections_IEnumerator_Reset_m1131465756,
-	U3CDrawOverTimeU3Ed__24_System_Collections_IEnumerator_get_Current_m500745691,
+	U3CDrawOverTimeU3Ed__22__ctor_m231349237,
+	U3CDrawOverTimeU3Ed__22_System_IDisposable_Dispose_m206964450,
+	U3CDrawOverTimeU3Ed__22_MoveNext_m3588684263,
+	U3CDrawOverTimeU3Ed__22_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m591615197,
+	U3CDrawOverTimeU3Ed__22_System_Collections_IEnumerator_Reset_m3612374622,
+	U3CDrawOverTimeU3Ed__22_System_Collections_IEnumerator_get_Current_m2026051286,
 	BrushSelector_OnEnable_m2829038275,
 	BrushSelector_Update_m1408350682,
 	BrushSelector_OnDestroy_m269040198,
@@ -68718,12 +68716,12 @@ extern const Il2CppMethodPointer g_MethodPointers[35650] =
 	ObjectSpawner_InteractionSourcePressed_m387276712,
 	ObjectSpawner_InteractionSourceReleased_m1835341091,
 	ObjectSpawner__ctor_m3564298841,
-	U3CSwitchOverTimeU3Ed__23__ctor_m861004313,
-	U3CSwitchOverTimeU3Ed__23_System_IDisposable_Dispose_m2819711872,
-	U3CSwitchOverTimeU3Ed__23_MoveNext_m3315921400,
-	U3CSwitchOverTimeU3Ed__23_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3923244764,
-	U3CSwitchOverTimeU3Ed__23_System_Collections_IEnumerator_Reset_m2881886853,
-	U3CSwitchOverTimeU3Ed__23_System_Collections_IEnumerator_get_Current_m511843580,
+	U3CSwitchOverTimeU3Ed__22__ctor_m1848924688,
+	U3CSwitchOverTimeU3Ed__22_System_IDisposable_Dispose_m3977042330,
+	U3CSwitchOverTimeU3Ed__22_MoveNext_m1367394119,
+	U3CSwitchOverTimeU3Ed__22_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m953490072,
+	U3CSwitchOverTimeU3Ed__22_System_Collections_IEnumerator_Reset_m1261130533,
+	U3CSwitchOverTimeU3Ed__22_System_Collections_IEnumerator_get_Current_m1607047503,
 	LinePointer_OnEnable_m3195562588,
 	LinePointer_OnDisable_m2572148290,
 	LinePointer_Update_m3454829233,

@@ -3626,27 +3626,27 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // U3CSETCONTENTHEIGHTU3ED__8_T405582793_H
-#ifndef U3CSWITCHOVERTIMEU3ED__23_T3239096198_H
-#define U3CSWITCHOVERTIMEU3ED__23_T3239096198_H
+#ifndef U3CSWITCHOVERTIMEU3ED__22_T1282781062_H
+#define U3CSWITCHOVERTIMEU3ED__22_T1282781062_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// HoloToolkit.Unity.ControllerExamples.ObjectSpawner/<SwitchOverTime>d__23
-struct  U3CSwitchOverTimeU3Ed__23_t3239096198  : public RuntimeObject
+// HoloToolkit.Unity.ControllerExamples.ObjectSpawner/<SwitchOverTime>d__22
+struct  U3CSwitchOverTimeU3Ed__22_t1282781062  : public RuntimeObject
 {
 public:
-	// System.Int32 HoloToolkit.Unity.ControllerExamples.ObjectSpawner/<SwitchOverTime>d__23::<>1__state
+	// System.Int32 HoloToolkit.Unity.ControllerExamples.ObjectSpawner/<SwitchOverTime>d__22::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object HoloToolkit.Unity.ControllerExamples.ObjectSpawner/<SwitchOverTime>d__23::<>2__current
+	// System.Object HoloToolkit.Unity.ControllerExamples.ObjectSpawner/<SwitchOverTime>d__22::<>2__current
 	RuntimeObject * ___U3CU3E2__current_1;
-	// HoloToolkit.Unity.ControllerExamples.ObjectSpawner HoloToolkit.Unity.ControllerExamples.ObjectSpawner/<SwitchOverTime>d__23::<>4__this
+	// HoloToolkit.Unity.ControllerExamples.ObjectSpawner HoloToolkit.Unity.ControllerExamples.ObjectSpawner/<SwitchOverTime>d__22::<>4__this
 	ObjectSpawner_t3925816580 * ___U3CU3E4__this_2;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CSwitchOverTimeU3Ed__23_t3239096198, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CSwitchOverTimeU3Ed__22_t1282781062, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -3654,7 +3654,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CSwitchOverTimeU3Ed__23_t3239096198, ___U3CU3E2__current_1)); }
+	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CSwitchOverTimeU3Ed__22_t1282781062, ___U3CU3E2__current_1)); }
 	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
 	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
 	inline void set_U3CU3E2__current_1(RuntimeObject * value)
@@ -3663,7 +3663,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3CU3E2__current_1), value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CSwitchOverTimeU3Ed__23_t3239096198, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CSwitchOverTimeU3Ed__22_t1282781062, ___U3CU3E4__this_2)); }
 	inline ObjectSpawner_t3925816580 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline ObjectSpawner_t3925816580 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(ObjectSpawner_t3925816580 * value)
@@ -3676,7 +3676,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CSWITCHOVERTIMEU3ED__23_T3239096198_H
+#endif // U3CSWITCHOVERTIMEU3ED__22_T1282781062_H
 #ifndef U3CDELAYEDRELEASEU3ED__41_T1082381697_H
 #define U3CDELAYEDRELEASEU3ED__41_T1082381697_H
 #ifdef __clang__
@@ -7279,33 +7279,33 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // TERMINFOSTRINGS_T290279955_H
-#ifndef U3CDRAWOVERTIMEU3ED__24_T1141827424_H
-#define U3CDRAWOVERTIMEU3ED__24_T1141827424_H
+#ifndef U3CDRAWOVERTIMEU3ED__22_T2288838496_H
+#define U3CDRAWOVERTIMEU3ED__22_T2288838496_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__24
-struct  U3CDrawOverTimeU3Ed__24_t1141827424  : public RuntimeObject
+// HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__22
+struct  U3CDrawOverTimeU3Ed__22_t2288838496  : public RuntimeObject
 {
 public:
-	// System.Int32 HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__24::<>1__state
+	// System.Int32 HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__22::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__24::<>2__current
+	// System.Object HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__22::<>2__current
 	RuntimeObject * ___U3CU3E2__current_1;
-	// HoloToolkit.Unity.ControllerExamples.BrushController HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__24::<>4__this
+	// HoloToolkit.Unity.ControllerExamples.BrushController HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__22::<>4__this
 	BrushController_t3766631826 * ___U3CU3E4__this_2;
-	// UnityEngine.LineRenderer HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__24::<line>5__1
+	// UnityEngine.LineRenderer HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__22::<line>5__1
 	LineRenderer_t3154350270 * ___U3ClineU3E5__1_3;
-	// System.Single HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__24::<initialWidth>5__2
+	// System.Single HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__22::<initialWidth>5__2
 	float ___U3CinitialWidthU3E5__2_4;
-	// UnityEngine.Vector3 HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__24::<lastPointPosition>5__3
+	// UnityEngine.Vector3 HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__22::<lastPointPosition>5__3
 	Vector3_t3722313464  ___U3ClastPointPositionU3E5__3_5;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__24_t1141827424, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__22_t2288838496, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -7313,7 +7313,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__24_t1141827424, ___U3CU3E2__current_1)); }
+	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__22_t2288838496, ___U3CU3E2__current_1)); }
 	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
 	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
 	inline void set_U3CU3E2__current_1(RuntimeObject * value)
@@ -7322,7 +7322,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3CU3E2__current_1), value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__24_t1141827424, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__22_t2288838496, ___U3CU3E4__this_2)); }
 	inline BrushController_t3766631826 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline BrushController_t3766631826 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(BrushController_t3766631826 * value)
@@ -7331,7 +7331,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3CU3E4__this_2), value);
 	}
 
-	inline static int32_t get_offset_of_U3ClineU3E5__1_3() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__24_t1141827424, ___U3ClineU3E5__1_3)); }
+	inline static int32_t get_offset_of_U3ClineU3E5__1_3() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__22_t2288838496, ___U3ClineU3E5__1_3)); }
 	inline LineRenderer_t3154350270 * get_U3ClineU3E5__1_3() const { return ___U3ClineU3E5__1_3; }
 	inline LineRenderer_t3154350270 ** get_address_of_U3ClineU3E5__1_3() { return &___U3ClineU3E5__1_3; }
 	inline void set_U3ClineU3E5__1_3(LineRenderer_t3154350270 * value)
@@ -7340,7 +7340,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3ClineU3E5__1_3), value);
 	}
 
-	inline static int32_t get_offset_of_U3CinitialWidthU3E5__2_4() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__24_t1141827424, ___U3CinitialWidthU3E5__2_4)); }
+	inline static int32_t get_offset_of_U3CinitialWidthU3E5__2_4() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__22_t2288838496, ___U3CinitialWidthU3E5__2_4)); }
 	inline float get_U3CinitialWidthU3E5__2_4() const { return ___U3CinitialWidthU3E5__2_4; }
 	inline float* get_address_of_U3CinitialWidthU3E5__2_4() { return &___U3CinitialWidthU3E5__2_4; }
 	inline void set_U3CinitialWidthU3E5__2_4(float value)
@@ -7348,7 +7348,7 @@ public:
 		___U3CinitialWidthU3E5__2_4 = value;
 	}
 
-	inline static int32_t get_offset_of_U3ClastPointPositionU3E5__3_5() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__24_t1141827424, ___U3ClastPointPositionU3E5__3_5)); }
+	inline static int32_t get_offset_of_U3ClastPointPositionU3E5__3_5() { return static_cast<int32_t>(offsetof(U3CDrawOverTimeU3Ed__22_t2288838496, ___U3ClastPointPositionU3E5__3_5)); }
 	inline Vector3_t3722313464  get_U3ClastPointPositionU3E5__3_5() const { return ___U3ClastPointPositionU3E5__3_5; }
 	inline Vector3_t3722313464 * get_address_of_U3ClastPointPositionU3E5__3_5() { return &___U3ClastPointPositionU3E5__3_5; }
 	inline void set_U3ClastPointPositionU3E5__3_5(Vector3_t3722313464  value)
@@ -7360,7 +7360,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CDRAWOVERTIMEU3ED__24_T1141827424_H
+#endif // U3CDRAWOVERTIMEU3ED__22_T2288838496_H
 #ifndef RECEIPT_T1200975798_H
 #define RECEIPT_T1200975798_H
 #ifdef __clang__
@@ -21218,10 +21218,10 @@ extern "C" Il2CppIUnknown* CreateComCallableWrapperFor_U3CUpdateDisplayModeU3Ed_
 	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) U3CUpdateDisplayModeU3Ed__32_t268247815_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__24
-struct U3CDrawOverTimeU3Ed__24_t1141827424_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<U3CDrawOverTimeU3Ed__24_t1141827424_ComCallableWrapper>, IClosable_t326290202
+// COM Callable Wrapper for HoloToolkit.Unity.ControllerExamples.BrushController/<DrawOverTime>d__22
+struct U3CDrawOverTimeU3Ed__22_t2288838496_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<U3CDrawOverTimeU3Ed__22_t2288838496_ComCallableWrapper>, IClosable_t326290202
 {
-	inline U3CDrawOverTimeU3Ed__24_t1141827424_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<U3CDrawOverTimeU3Ed__24_t1141827424_ComCallableWrapper>(obj) {}
+	inline U3CDrawOverTimeU3Ed__22_t2288838496_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<U3CDrawOverTimeU3Ed__22_t2288838496_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -21295,15 +21295,15 @@ struct U3CDrawOverTimeU3Ed__24_t1141827424_ComCallableWrapper IL2CPP_FINAL : il2
 	}
 };
 
-extern "C" Il2CppIUnknown* CreateComCallableWrapperFor_U3CDrawOverTimeU3Ed__24_t1141827424(RuntimeObject* obj)
+extern "C" Il2CppIUnknown* CreateComCallableWrapperFor_U3CDrawOverTimeU3Ed__22_t2288838496(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(U3CDrawOverTimeU3Ed__24_t1141827424_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(U3CDrawOverTimeU3Ed__22_t2288838496_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) U3CDrawOverTimeU3Ed__24_t1141827424_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) U3CDrawOverTimeU3Ed__22_t2288838496_ComCallableWrapper(obj));
 }
 
 // COM Callable Wrapper for HoloToolkit.Unity.ControllerExamples.Eraser/<DrawOverTime>d__4
@@ -21482,10 +21482,10 @@ extern "C" Il2CppIUnknown* CreateComCallableWrapperFor_U3CEraseStrokesOverTimeU3
 	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) U3CEraseStrokesOverTimeU3Ed__5_t963038218_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for HoloToolkit.Unity.ControllerExamples.ObjectSpawner/<SwitchOverTime>d__23
-struct U3CSwitchOverTimeU3Ed__23_t3239096198_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<U3CSwitchOverTimeU3Ed__23_t3239096198_ComCallableWrapper>, IClosable_t326290202
+// COM Callable Wrapper for HoloToolkit.Unity.ControllerExamples.ObjectSpawner/<SwitchOverTime>d__22
+struct U3CSwitchOverTimeU3Ed__22_t1282781062_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<U3CSwitchOverTimeU3Ed__22_t1282781062_ComCallableWrapper>, IClosable_t326290202
 {
-	inline U3CSwitchOverTimeU3Ed__23_t3239096198_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<U3CSwitchOverTimeU3Ed__23_t3239096198_ComCallableWrapper>(obj) {}
+	inline U3CSwitchOverTimeU3Ed__22_t1282781062_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<U3CSwitchOverTimeU3Ed__22_t1282781062_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -21559,15 +21559,15 @@ struct U3CSwitchOverTimeU3Ed__23_t3239096198_ComCallableWrapper IL2CPP_FINAL : i
 	}
 };
 
-extern "C" Il2CppIUnknown* CreateComCallableWrapperFor_U3CSwitchOverTimeU3Ed__23_t3239096198(RuntimeObject* obj)
+extern "C" Il2CppIUnknown* CreateComCallableWrapperFor_U3CSwitchOverTimeU3Ed__22_t1282781062(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(U3CSwitchOverTimeU3Ed__23_t3239096198_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(U3CSwitchOverTimeU3Ed__22_t1282781062_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) U3CSwitchOverTimeU3Ed__23_t3239096198_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) U3CSwitchOverTimeU3Ed__22_t1282781062_ComCallableWrapper(obj));
 }
 
 // COM Callable Wrapper for HoloToolkit.Unity.Design.LineUnity/<UpdateLineUnity>d__8
